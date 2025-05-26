@@ -38,6 +38,30 @@ services:
     environment:
       KAFKA_BROKERCONNECT: kafka:29092
 
+  producer:
+    container_name: producer
+    build: ./producer
+    ports:
+      - "8080:8080"
+    depends_on:
+      - kafka
+    environment:
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:29092
+    networks:
+      - broker-kafka
+
+  consumer:
+    container_name: consumer
+    build: ./consumer
+    ports:
+      - "8081:8081"
+    depends_on:
+      - kafka
+    environment:
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:29092
+    networks:
+      - broker-kafka
+
 networks:
   broker-kafka:
     driver: bridge
