@@ -97,3 +97,9 @@ Make sure that the all `application.yml` contains the topic configuration:
 ```properties
 topic.test=test_topic
 ```
+---
+
+## Unit tests
+
+The unit tests are missing because of the java version used in the project. I was not able to compile the project with the unit tests.
+I did Postman tests to test the endpoints. The Postman collection is included in the repository. `wit.postman_collection.json`

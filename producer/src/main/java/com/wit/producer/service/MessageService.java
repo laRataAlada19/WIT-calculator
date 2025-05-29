@@ -12,28 +12,31 @@ public class MessageService {
 
     private static final Logger logger = LoggerFactory.getLogger(MessageService.class);
 
-    @Value("${topic.test}")
-    private String test;
+    private final KafkaTemplate<String, String> kafkaTemplate;
+    private final String testTopic;
 
-    @Autowired
-    private KafkaTemplate<String, String> kafkaTemplate;
+    public MessageService(KafkaTemplate<String, String> kafkaTemplate,
+                          @Value("${topic.test}") String testTopic) {
+        this.kafkaTemplate = kafkaTemplate;
+        this.testTopic = testTopic;
+    }
 
     public void sum(int a, int b) {
         int sum = a + b;
         logger.info("Sum of {} and {} is {}", a, b, sum);
-        this.kafkaTemplate.send(test, "Sum: " + sum);
+        this.kafkaTemplate.send(testTopic, "Sum: " + sum);
     }
 
     public void subtract(int a, int b) {
         int difference = a - b;
         logger.info("Difference of {} and {} is {}", a, b, difference);
-        this.kafkaTemplate.send(test, "Difference: " + difference);
+        this.kafkaTemplate.send(testTopic, "Difference: " + difference);
     }
 
     public void multiply(int a, int b) {
         int product = a * b;
         logger.info("Product of {} and {} is {}", a, b, product);
-        this.kafkaTemplate.send(test, "Product: " + product);
+        this.kafkaTemplate.send(testTopic, "Product: " + product);
     }
 
     public void divide(int a, int b) {
@@ -43,6 +46,6 @@ public class MessageService {
         }
         double quotient = (double) a / b;
         logger.info("Quotient of {} and {} is {}", a, b, quotient);
-        this.kafkaTemplate.send(test, "Quotient: " + quotient);
+        this.kafkaTemplate.send(testTopic, "Quotient: " + quotient);
     }
 }
