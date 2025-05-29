@@ -587,3 +587,6 @@ java.lang.IllegalStateException: ApplicationContext failure threshold (1) exceed
 2025-05-29 17:30:20 [main] INFO  c.w.p.ProducerApplicationTests - Starting ProducerApplicationTests using Java 23.0.2 with PID 49299 (started by nazariy in /Users/nazariy/projects/interview_assignments/WIT-calculator/producer)
 2025-05-29 17:30:20 [main] INFO  c.w.p.ProducerApplicationTests - No active profile set, falling back to 1 default profile: "default"
 2025-05-29 17:30:21 [main] INFO  c.w.p.ProducerApplicationTests - Started ProducerApplicationTests in 0.498 seconds (process running for 0.809)
+2025-05-29 22:01:57 [main] INFO  c.w.p.ProducerApplicationTests - Starting ProducerApplicationTests using Java 23.0.2 with PID 50824 (started by nazariy in /Users/nazariy/projects/interview_assignments/WIT-calculator/producer)
+2025-05-29 22:01:57 [main] INFO  c.w.p.ProducerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 22:01:58 [main] INFO  c.w.p.ProducerApplicationTests - Started ProducerApplicationTests in 0.499 seconds (process running for 0.808)

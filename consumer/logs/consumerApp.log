@@ -7,3 +7,6 @@
 2025-05-29 17:30:22 [main] INFO  c.w.c.ConsumerApplicationTests - Starting ConsumerApplicationTests using Java 23.0.2 with PID 49305 (started by nazariy in /Users/nazariy/projects/interview_assignments/WIT-calculator/consumer)
 2025-05-29 17:30:22 [main] INFO  c.w.c.ConsumerApplicationTests - No active profile set, falling back to 1 default profile: "default"
 2025-05-29 17:30:22 [main] INFO  c.w.c.ConsumerApplicationTests - Started ConsumerApplicationTests in 0.484 seconds (process running for 0.753)
+2025-05-29 22:01:59 [main] INFO  c.w.c.ConsumerApplicationTests - Starting ConsumerApplicationTests using Java 23.0.2 with PID 50827 (started by nazariy in /Users/nazariy/projects/interview_assignments/WIT-calculator/consumer)
+2025-05-29 22:01:59 [main] INFO  c.w.c.ConsumerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 22:01:59 [main] INFO  c.w.c.ConsumerApplicationTests - Started ConsumerApplicationTests in 0.455 seconds (process running for 0.732)
