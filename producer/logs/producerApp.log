@@ -1,0 +1,6 @@
+2025-05-29 12:04:26 [main] INFO  c.w.p.ProducerApplicationTests - Starting ProducerApplicationTests using Java 23.0.2 with PID 46436 (started by nazariy in /Users/nazariy/projects/interview_assignments/WIT-calculator/producer)
+2025-05-29 12:04:26 [main] INFO  c.w.p.ProducerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 12:04:27 [main] INFO  c.w.p.ProducerApplicationTests - Started ProducerApplicationTests in 0.486 seconds (process running for 0.806)
+2025-05-29 12:06:43 [main] INFO  c.w.p.ProducerApplicationTests - Starting ProducerApplicationTests using Java 23.0.2 with PID 46595 (started by nazariy in /Users/nazariy/projects/interview_assignments/WIT-calculator/producer)
+2025-05-29 12:06:43 [main] INFO  c.w.p.ProducerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 12:06:43 [main] INFO  c.w.p.ProducerApplicationTests - Started ProducerApplicationTests in 0.485 seconds (process running for 0.796)
